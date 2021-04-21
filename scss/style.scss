@@ -23,9 +23,11 @@ body {
   .clock-wrapper {
     width: 300px;
     height: 300px;
-
     background: #c7ecee;
-    box-shadow: 20px 20px 60px #a9c9ca, -20px -20px 60px #e5ffff;
+    box-shadow: -24px 24px 49px #b3d4d6, 24px -24px 49px #dbffff;
+
+    // background: #c7ecee;
+    // box-shadow: 20px 20px 60px #a9c9ca, -20px -20px 60px #e5ffff;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;

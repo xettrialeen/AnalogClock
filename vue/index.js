@@ -3,7 +3,6 @@ const clock = new Vue({
   data: {
     message: "hello world",
   },
-  methods: {},
   mounted: function () {
     setInterval(setClock, 1000);
     const hourHand = document.querySelector("[data-hour]");
