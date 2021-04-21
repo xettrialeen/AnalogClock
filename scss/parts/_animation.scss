@@ -1,0 +1,76 @@
+// .svg1 {
+//   display: block;
+//   position: absolute;
+//   top: 76%;
+//   left: 59%;
+//   transform: translate(-50%, -50%);
+//   -webkit-transform: translate(-50%, -50%);
+//   -moz-transform: translate(-50%, -50%);
+//   -ms-transform: translate(-50%, -50%);
+//   -o-transform: translate(-50%, -50%);
+//   filter: drop-shadow(3px 3px 2px #a3b1c6) drop-shadow(-3px -3px 2px #ffffff);
+//   -webkit-filter: drop-shadow(3px 3px 2px #a3b1c6)
+//     drop-shadow(-3px -3px 2px #ffffff);
+// }
+
+// #Symbols {
+//   width: 100vh;
+//   height: 100vw;
+// }
+
+// svg circle {
+//   fill: transparent;
+//   stroke: #f5f5f5;
+//   stroke-width: 0.1;
+// }
+
+// svg line {
+//   stroke: #f5f5f5;
+//   stroke-width: 0.1;
+// }
+
+// .ring-1 {
+//   cx: 5;
+//   cy: 5;
+// }
+
+// .ring-2 {
+//   cx: 9;
+//   cy: 8.5;
+// }
+
+// @keyframes layer-animation {
+//   0% {
+//     r: 0;
+//     opacity: 0%;
+//   }
+//   50% {
+//     opacity: 100%;
+//   }
+//   75% {
+//     opacity: 95%;
+//   }
+//   100% {
+//     r: 4;
+//     opacity: 0%;
+//   }
+// }
+
+// .animated-ring {
+//   animation-duration: 4s;
+//   animation-iteration-count: infinite;
+//   animation-name: layer-animation;
+//   animation-timing-function: ease-in;
+// }
+
+// .layer-3 {
+//   animation-delay: 1s;
+// }
+
+// .layer-2 {
+//   animation-delay: 2s;
+// }
+
+// .layer-1 {
+//   animation-delay: 3s;
+// }
