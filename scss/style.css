@@ -133,10 +133,10 @@ body {
   -o-transform: translate(-50%) rotate(calc(var(--rotation) * 1deg));
 }
 #clock .second {
-  --rotation: 50;
-  width: 3px;
+  --rotation: 0;
+  width: 2px;
   height: 41%;
-  background-color: #e57373;
+  background-color: #f18d8d;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -155,7 +155,7 @@ body {
   -o-border-radius: 80px;
 }
 #clock .hour {
-  --rotation: 120;
+  --rotation: 0;
   width: 9px;
   height: 25%;
   background-color: #858485;
@@ -178,7 +178,8 @@ body {
   -ms-transform: rotate(var(--rotation));
   -o-transform: rotate(var(--rotation));
   font-family: "Lexend Deca", sans-serif;
-  font-size: 1em;
+  font-size: 1.1em;
+  font-weight: bold;
   color: #a9c9ca;
 }
 #clock .number1 {
